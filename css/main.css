@@ -11,8 +11,13 @@
     height: 100vh;
 }
 
+.logoIndex {
+    grid-column: 2;
+    grid-row: 1;
+}
+
 .logoIndex img {
-    width: 200px;
+    width: 10.5rem;
 }
 
 .searchBarIndex,
