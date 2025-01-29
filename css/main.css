@@ -1,3 +1,17 @@
+html {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    font-size: 62.50%;
+}
+
+*,
+*::before,
+*::after {
+    margin:0;
+    padding: 0;;
+    box-sizing: inherit;
+}
+
 .container {
     display: grid;
 
@@ -71,7 +85,7 @@
     font-size: 1.4rem;
 }
 
-.recentPostsContent {
+.recentPostS {
     display: grid;
     width: 66vw;
     grid-template-columns: repeat(auto-fit, minmax(100, 1fr));
@@ -79,14 +93,13 @@
 
 }
 
-.recentPost,
 
-.recentPostsTitle {
+.recentPostTitle {
     color: #535353;
     font-size: 1.4rem;
 }
 
-.recentPostsCategory {
+.recentPostCategory {
     color: #999;
     font-size: 1.2rem;
     font-weight: 600;
