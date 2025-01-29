@@ -22,7 +22,7 @@ html {
 
 }
 
-.containerHomepage {
+.containerIndex {
     align-items: center;
     margin: 5em 0 0 0;
     height: 100vh;
@@ -31,7 +31,7 @@ html {
 
 .containerResults {
     margin: 2em 0 0 0;
-    
+
 
 }
 
@@ -120,12 +120,31 @@ html {
 Results page styles
 */
 
-.resultsPostsWrapper
+.resultsPostsWrapper {
+    grid-row: 3;
+    grid-column: 1 /-1;
+    width: 66vw;
 
-.resultsPost
+}
 
-.resultsPostTitle
+.resultsPost {
+    margin: 3em 0 3em 0;
+
+}
+
+.resultsPostCategory {
+    color: #2660f3;
+    margin: 0 0 1.5rem 0;
+    font-size: 1.4rem;
+
+}
+
+.resultsPostTitle {
+    color: #535353;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
 
 .resultsPostLinksWrapper
 
-.resultsPostsLink
+.resultsPostsLink 
