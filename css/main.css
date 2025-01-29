@@ -18,12 +18,23 @@ html {
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-columns: 1fr 1fr 1fr;
 
-    margin: 5em 0 0 0;
     justify-items: center;
-    align-items: center;
 
-    height: 100vh;
 }
+
+.containerHomepage {
+    align-items: center;
+    margin: 5em 0 0 0;
+    height: 100vh;
+
+}
+
+.containerResults {
+    margin: 2em 0 0 0;
+    
+
+}
+
 
 .logoIndex {
     grid-column: 2;
@@ -117,4 +128,4 @@ Results page styles
 
 .resultsPostLinksWrapper
 
-resultsPostsLink
+.resultsPostsLink
