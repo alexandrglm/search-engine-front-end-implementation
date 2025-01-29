@@ -52,13 +52,42 @@
     color: #a4a4a4;
 }
 
+.searchBarIndex p {
+    color:#b3b3b3;
+    font-size: 1.4rem;
+    margin: 2.3rem 0 0 0;
+    text-align: right;
+    line-height: 1.7rem;
+}
 
-.recentPostsWrapper,
+.recentPostsWrapper {
+    grid-column: 1/-1;
+    grid-row: 3;
+}
 
-.recentPostsHeading,
+.recentPostsHeading {
+    color: #2660f3;
+    margin: 0 0 3rem 0;
+    font-size: 1.4rem;
+}
 
-.recentPosts,
+.recentPostsContent {
+    display: grid;
+    width: 66vw;
+    grid-template-columns: repeat(auto-fit, minmax(100, 1fr));
+    grid-gap: 2.5rem;
 
-.recentPostsTitle,
+}
 
-.recentPostsCategory,
+.recentPost,
+
+.recentPostsTitle {
+    color: #535353;
+    font-size: 1.4rem;
+}
+
+.recentPostsCategory {
+    color: #999;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
