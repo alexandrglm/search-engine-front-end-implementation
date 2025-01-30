@@ -34,7 +34,7 @@ html {
 
 
 }
-
+/* Shared Styles for logo */
 
 .logoIndex {
     grid-column: 2;
@@ -43,6 +43,21 @@ html {
 
 .logoIndex img {
     width: 10.5rem;
+}
+
+.logoResults {
+    display: flex;
+    
+    grid-row: 1;
+    grid-column: 2;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoResults img {
+    width: 50px;
 }
 
 /* Shared Styles for searchBars & own styles */
@@ -116,7 +131,6 @@ html {
     grid-gap: 2.5rem;
 
 }
-
 
 .recentPostTitle {
     color: #535353;
