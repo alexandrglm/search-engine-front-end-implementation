@@ -145,6 +145,19 @@ Results page styles
     font-size: 1.8rem;
 }
 
-.resultsPostLinksWrapper
+.resultsPostLinksWrapper {
+    margin: 2rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 2rem;
+}
 
-.resultsPostsLink 
+.resultsPostsLink {
+    color: #535353;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.resultsPostsLink:hover {
+    text-decoration: underline;
+}
