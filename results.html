@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-end Search Implementation</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+    <!-- FontAwesome resources are used inside the search bars. FontAwesome CSS CDN importing method has changed so that it might still not be available. Sorry for the incoveniences.-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,23 +14,19 @@
 </head>
 <body>
     <div class="container containerResults">   
-        <!-- LOGO -->
-        <div class="logoIndex">
+        <!-- LOGO results-->
+        <div class="logoResults">
             <img src="./img/ds_circle_logo.png" alt=""></a>
         </div>
-
+        
+        <!-- SearchBox with shared styles -->
         <div class="searchBar searchBarResults">
-            <!-- SearchBox -->
-            <input type="text" placeholder="&#xf002; Search DailySmarty">
-            <!-- Press Return to search placeholder? -->
-            <p>Press Return to search something.</p>                
+            <input type="text" placeholder="&#xf002; Search DailySmarty">               
         </div>
 
-
         <!-- Results posts -->
-        <div class="resultsPostsWrapper">
-            
-            <!-- 4 in a row-->
+        <div class="resultsPostsWrapper"> 
+            <!-- Main results-->
             <div class="resultsPost">
                 <div class="resultsPostCategory">
                     <p>JavaScript</p>
@@ -41,13 +38,13 @@
             </div>
 
             <div class="resultsPostLinksWrapper">
-                <a class="resultsPostsLink" href="#">Rows and columns are used.</a>
-                <a class="resultsPostsLink" href="#">Negative numbers helps a lot.</a>
-                <a class="resultsPostsLink" href="#">A .container class joins with other class.</a>
-                <a class="resultsPostsLink" href="#">The .container has the CSS Grid/Row templates.</a>
+                <a class="resultsPostsLink" href="#">Remember the grid-templates- to start defining th grid structure.</a>
+                <a class="resultsPostsLink" href="#">Negative numbers helps a lot. Used grid-row with "1/ NegativeNumber" would entirelly change the grid distribution.</a>
+                <a class="resultsPostsLink" href="#">Shared styles for both html help lets a better customisation.</a>
+                <a class="resultsPostsLink" href="#">This result page has a Flexbox element in order to introduce it.</a>
             </div>
 
-            <!-- 4 in a column -->
+            <!-- Listed results -->
             <div class="resultsPost">
                 <div class="resultsPostCategory">
                     <p>JavaScript</p>
@@ -55,7 +52,7 @@
             </div>
 
             <div class="resultsPostTitle">
-                <a href="#">Example of a Result shown in 4 rows</a>
+                <a href="#">Nested CSS grids seems to be a madness when configuring.</a>
             </div>
             <div class="resultsPost">
                 <div class="resultsPostCategory">
@@ -64,7 +61,7 @@
             </div>
 
             <div class="resultsPostTitle">
-                <a href="#">Example of a Result shown in 4 rows</a>
+                <a href="#">But, once done, you can feel the satisfaction.</a>
             </div>
             
             <div class="resultsPost">
@@ -74,7 +71,7 @@
             </div>
 
             <div class="resultsPostTitle">
-                <a href="#">Example of a Result shown in 4 rows</a>
+                <a href="#">Where is the only Flexbox elements used on this results page?</a>
             </div>
             
             <div class="resultsPost">
@@ -84,42 +81,9 @@
             </div>
 
             <div class="resultsPostTitle">
-                <a href="#">Example of a Result shown in 4 rows</a>
+                <a href="#">It's on the top of the site, at search bar divisors.</a>
             </div>
         </div>
     </div>
-
-        <!-- Results posts listed as seen on index.html 
-        <div class="recentPostsWrapper">
-        
-            <div class="recentPostS">
-                <div class="recentPost">
-                    <div class="recentPostTitle">
-                        ## Guide to rendering points on a Google Map
-                        <div class="recentPostCategory">
-                            - JavaScript
-                        </div>
-                    </div>    
-                </div>
-                <div class="recentPost">
-                    <div class="recentPostTitle">
-                        ## Guide to rendering points on a Google Map
-                        <div class="recentPostCategory">
-                            - JavaScript
-                        </div>
-                    </div>    
-                </div>
-                <div class="recentPost">
-                    <div class="recentPostTitle">
-                        ## Guide to rendering points on a Google Map
-                        <div class="recentPostCategory">
-                            - JavaScript
-                        </div>
-                    </div>    
-                </div>
-            </div>
-        </div>   --> 
-    </div> 
-
 </body>
 </html>
